@@ -640,7 +640,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_BOOT_JARS += \
     WfdCommon
 
-ifneq ($(TARGET_IS_TABLET),true)
+ifneq ($(TARGET_IS_WIFI-ONLY),true)
 
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/sm8250-common/proprietary/vendor/etc/apdr.conf:$(TARGET_COPY_OUT_VENDOR)/etc/apdr.conf \
