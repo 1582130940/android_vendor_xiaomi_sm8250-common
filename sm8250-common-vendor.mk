@@ -162,7 +162,6 @@ PRODUCT_PACKAGES += \
     libVkLayer_ADRENO_qprofiler \
     libq3dtools_adreno \
     libq3dtools_esx \
-    vulkan.adreno \
     libC2D2 \
     libCB \
     libOpenCL \
@@ -286,6 +285,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.qseecom@1.0-impl \
     vendor.qti.hardware.qteeconnector@1.0-impl \
     vendor.qti.hardware.soter@1.0-impl \
+    vulkan.adreno \
     jcos_nq_client \
     lib-imscmservice \
     lib-imsdpl \
